@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="app.js" defer></script>
+	<link rel="stylesheet" href="style.css">
+	<title>Rick-Morty</title>
+</head>
+<body>
+	<div class="img-hd">
+		<h1>Rick and Morty</h1>
+	</div>
+	<form>
+		<input type="text" name="" id="search-input" placeholder="Busca tu personaje"/>
+	</form>
+	<div class="d-container">
+		<div class="animated"></div>
+	</div>
+
+	<div class="pagination">
+		<button id="btnAnterior">Anterior</button>
+		<button id="btnSiguiente">Siguiente</button>
+	</div>
+
+	<div id="wrong" class="modal-cont none" >  
+        <div class="modal">
+            <div class="icon">
+                <i class='bx bx-money-withdraw'></i>
+            </div>
+            <h2></h2>            
+            <p></p>
+            <button class="mod_btn" onclick=ocultar()>Intentar de nuevo!</button>  
+        </div>
+    </div>
+	
+</body>
+</html>

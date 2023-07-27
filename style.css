@@ -1,0 +1,107 @@
+  @import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+	margin-top: 0.6rem;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: sans-serif;
+	background-color: #151516;
+
+}
+
+h1{
+	font-family: 'Lilita One', cursive;
+	color: white;
+	font-size: 500%;
+	display: flex;
+	/* align-items: center; */
+	justify-content: center;
+	padding-top: 2rem;
+}
+
+.img-hd{
+	width: 100%;
+	height: 350px;
+	background-image: linear-gradient(to top, rgba(160, 91, 140, 0.703) 0%, rgba(56, 94, 158, 0.709) 100%), url(imag/img_2.jpg);
+	background-size: cover;                /*tamaño de fondo y se mantiene fijo*/
+    background-attachment: fixed;  
+}
+.d-container{
+	margin: 0 4rem 0 4rem;
+}
+
+.card-div{
+	background-image: linear-gradient(120deg,rgba(255, 255, 255, 0.703) 0%, rgba(26, 105, 79, 0.709) 100%);
+	border:1px solid #ddd;
+	border-radius: 2rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0 1.2rem 2.4rem 1.2rem;
+}
+
+.card-div img{
+	border-radius: 1.5rem;
+	padding-bottom: 1rem;
+	height: 80%;
+	width: 70%;
+	
+}
+
+.animated{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+}
+
+#search-input{
+	border-radius: 1rem;
+	padding: 1rem;
+	padding-right: 10rem;
+	cursor: pointer;
+}
+
+form{
+	padding-block: 1rem;
+	display: grid;
+	place-content: center;
+}
+
+.search-input:hover{
+	background-color: #8b4b4b;
+}
+
+.pagination {
+	position: fixed;
+	bottom: 0;
+	background: #100a1f;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+	padding: 0.2rem;
+}
+
+.pagination button {
+	cursor: pointer;
+	border: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	height: 2.5rem;
+	width: 10rem;
+	background: #241744;
+	color: #fff;
+	border-radius: 100px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	transition: .3s ease all;
+}
+
+.pagination button:hover {
+	background: #25793e;
+}
